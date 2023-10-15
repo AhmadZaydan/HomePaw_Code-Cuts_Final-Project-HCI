@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <title>Pet Adoption Web App: HCI Final Project</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1" charset="UTF-8">
+        <link rel="stylesheet" href="PetAdoptionPrototype.css">
+
+    </head>
+    <body>
+        <section id="home" class="header">
+            <div>
+                <h1>Pet Adoption</h1>  
+            </div>
+              
+        </section>
+
+        <section class="navbar">
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#adopting">Adopting</a></li>
+                    <li><a href="#adoption">Adoption</a></li>
+                </ul>
+            </nav>
+        </section>
+ 
+        <section id="about">
+            <h2>About</h2>
+            <p>Greetings animal lovers, welcome to -Pet Adoption-, a place where you can start your
+                journey of having a pet. 
+            </p>
+        </section>
+
+        
+        <section id="adopting">
+            <h2>Plan on adopting?</h2>
+            <form>
+                <label>What kind of animal would you like to adopt?</label><br>
+                <input type="text" name="animalType" placeholder="Enter an animal">
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section id="adoption">
+            <h2>Find a new home and family for your pet?</h2>
+            <form>
+                <label>Enter your name of the pet you want to register</label><br>
+                <input type="text" name="petName" placeholder="Enter pet name">
+                <button type="submit">Submit</button>
+                <br>
+                <br>
+                <label for="animalKind">What kind of animal: </label>
+                <select name="animalKind" id="animalKind">
+                    <option>Select an option</option>
+                    <option value="cat">Cat</option>
+                    <option value="dog">Dog</option>
+                    <option value="bird">Bird</option>
+                    <option value="Other">Other</option>
+                </select>
+                <br>
+                <br>
+                <label>Please specify the breed/species of your prefered animal</label><br>
+                <input type="text" name="petName" placeholder="Pet breed/species">
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+        
+        
+
+    </body>
+
+</html>
